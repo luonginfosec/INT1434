@@ -19,7 +19,7 @@ Mở **http://127.0.0.1:5173** trên trình duyệt. Nếu cổng đang được
 
 Tài khoản mẫu: **`reader` / `StoryRent2026`** (hoặc chọn “Điền tài khoản mẫu” ở trang đăng nhập).
 
-Ứng dụng chỉ có frontend, dùng dữ liệu mô phỏng và lưu dữ liệu trên trình duyệt bằng `localStorage`; không cần backend, cơ sở dữ liệu hay file `.env`. Đăng nhập và đặt thuê phục vụ demo, chưa kết nối thanh toán thực tế.
+Ứng dụng chỉ có frontend, dùng dữ liệu mô phỏng và lưu dữ liệu trên trình duyệt bằng `localStorage`, không cần backend, cơ sở dữ liệu hay file `.env`. Đăng nhập và đặt thuê phục vụ demo, chưa kết nối thanh toán thực tế.
 
 ### Build và kiểm thử
 
