@@ -43,4 +43,3 @@ vite.config.js    # Cấu hình Vite
 vercel.json       # Cấu hình route khi deploy Vercel
 ```
 
-Repository chỉ chứa mã nguồn, tài nguyên và cấu hình cần thiết; các báo cáo, ảnh báo cáo, ghi chú, `node_modules/` và `dist/` được loại bằng `.gitignore`.
