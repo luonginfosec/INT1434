@@ -1,0 +1,43 @@
+﻿# Only publish the project source and supporting configuration at the root.
+# Add an explicit exception here when introducing a new root file/directory.
+/*
+!/.gitignore
+!/README.md
+!/ASSETS.md
+!/index.html
+!/package.json
+!/package-lock.json
+!/vite.config.js
+!/vercel.json
+!/src/
+!/public/
+!/tests/
+!/scripts/
+
+# Keep only the asset generation script; report tools stay local.
+/scripts/*
+!/scripts/generate-covers.mjs
+
+# Dependencies, build output, test artifacts and local configuration.
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+.npm-cache/
+.vite/
+.vercel/
+.netlify/
+.env*
+!.env.example
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.agents/
+.codex/
